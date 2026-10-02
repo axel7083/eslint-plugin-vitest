@@ -46,6 +46,7 @@ const allRules = {
   'no-interpolation-in-snapshots': 'warn',
   'no-large-snapshots': 'warn',
   'no-mocks-import': 'warn',
+  'no-spy-on-mocked-module': 'warn',
   'no-restricted-matchers': 'warn',
   'no-restricted-vi-methods': 'warn',
   'no-standalone-expect': 'warn',

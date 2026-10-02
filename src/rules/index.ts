@@ -25,6 +25,7 @@ import noLargeSnapshots from './no-large-snapshots'
 import noMocksImport from './no-mocks-import'
 import noRestrictedMatchers from './no-restricted-matchers'
 import noRestrictedViMethods from './no-restricted-vi-methods'
+import noSpyOnMockedModule from './no-spy-on-mocked-module'
 import noStandaloneExpect from './no-standalone-expect'
 import noTestPrefixes from './no-test-prefixes'
 import noTestReturnStatement from './no-test-return-statement'
@@ -109,6 +110,7 @@ export const rules = {
   'no-mocks-import': noMocksImport,
   'no-restricted-matchers': noRestrictedMatchers,
   'no-restricted-vi-methods': noRestrictedViMethods,
+  'no-spy-on-mocked-module': noSpyOnMockedModule,
   'no-standalone-expect': noStandaloneExpect,
   'no-test-prefixes': noTestPrefixes,
   'no-test-return-statement': noTestReturnStatement,
